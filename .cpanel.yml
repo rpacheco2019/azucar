@@ -1,0 +1,8 @@
+---
+deployment:
+  tasks:
+    - export DEPLOYPATH=/home/hyrumtech/admin.lluviadeazucar.com/
+    - /bin/cp -R uploads $DEPLOYPATH
+    - /bin/cp -R xcrud $DEPLOYPATH
+    - /bin/cp -R index.php $DEPLOYPATH
+    - /bin/cp -R imprimir.php $DEPLOYPATH
