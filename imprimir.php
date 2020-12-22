@@ -48,7 +48,7 @@
 		      <td><?php echo $resultados['fechaProduccion'] ?></td>
 		    </tr>
 		    <tr>
-		      <td class="table-active">ODS Zoho:</td>
+		      <td class="table-active">#ODS:</td>
 		      <td><?php echo $resultados['ODS']; ?></td>
 		      <td class="table-active">PAX:</td>
 		      <td><?php echo  $resultados['pax'];?></td>
@@ -80,7 +80,7 @@
 		    <tr>
 		      <td class="table-active">Estado</td>
 		      <td><?php echo $resultados['estado']; ?></td>
-		      <td class="table-active">Nota de pago:</td>
+		      <td class="table-active">-</td>
 		      <td><?php echo $resultados['notaInterna']; ?></td>
 		    </tr>
 		     </tbody>
@@ -153,12 +153,13 @@
 
 <p><b>Imagen de inspiración: </b> <?php ?></p>
 <img src="uploads/<?php echo $resultados['imagen'];?>" alt="" width="300" height="300">
+<p class="d-inline">Texto a escribir en pastel: <?php echo $resultados['textoGeneral'];  ?></p>
+<p class="d-inline">// Tema: <?php echo $resultados['tema'];  ?></p>
 <hr>
 
 
-<p>Firma: <?php  ?> </p>
-Fecha de firma / Entregado: __________________________
-<br><br>
+<p>Fecha compromiso: <?php echo $resultados['fechaEntrega'];  ?> // Cliente: <?php echo $resultados['nombreCliente'];  ?> </p>
+<p>Tipo de pastel: <?php echo $resultados['tipoPastel'];  ?> </p>
 	
 <table class="table table-sm">
 			<thead class="thead-dark">

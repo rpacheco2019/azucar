@@ -25,7 +25,7 @@
     $xcrud->label('notaInterna','Folio de Pago');
     $xcrud->label('fechaEntrega','Fecha Compromiso');
     $xcrud->label('fechaProduccion','Fecha de Produccion');
-    $xcrud->label('ODS','ODS ZOHO');
+    $xcrud->label('ODS','#ODS');
     $xcrud->label('tipoEvento','Tipo de Evento');
     $xcrud->label('evento','Nombre de Evento');
     $xcrud->label('direccionEntrega','Dirección de Entrega');
