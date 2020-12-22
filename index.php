@@ -33,6 +33,7 @@
     $xcrud->label('tipoFlor','Tipo de flor');
     $xcrud->label('descFlor','Detalles de Flores');
     $xcrud->label('textoGeneral','Texto a escribir en el pastel');
+    $xcrud->label('notaPastel','Notas de pastel');
 
     $xcrud->label('alturaPiso0','Altura PAX 8');
     $xcrud->label('panPiso0','Pan PAX 8');
@@ -67,7 +68,7 @@
     /* Tabs */
     $xcrud->fields('fechaEntrega,fechaProduccion,notaInterna,ODS,estado', false, 'Programación');
     $xcrud->fields('nombreCliente,evento,tipoEvento,direccionEntrega', false, 'Cliente');
-    $xcrud->fields('producto,pax,tema,tipoPastel,tipoFlor,descFlor,textoGeneral,imagen', false, 'Producto');
+    $xcrud->fields('producto,pax,tema,tipoPastel,tipoFlor,descFlor,textoGeneral,notaPastel,imagen', false, 'Producto');
     $xcrud->fields('alturaPiso0,panPiso0,rellenoPiso0,relleno2Piso0,alturaPiso1,panPiso1,rellenoPiso1,relleno2Piso1,alturaPiso2,panPiso2,rellenoPiso2,relleno2Piso2,alturaPiso3,panPiso3,rellenoPiso3,relleno2Piso3,alturaPiso4,panPiso4,rellenoPiso4,relleno2Piso4,alturaPiso5,panPiso5,rellenoPiso5,relleno2Piso5', false, 'Pisos(pastel)');
     /* $xcrud->fields('alturaPiso1,panPiso1,rellenoPiso1,alturaPiso2,panPiso2,rellenoPiso2,alturaPiso3,panPiso3,rellenoPiso3,alturaPiso4,panPiso4,rellenoPiso4,alturaPiso5,panPiso5,rellenoPiso5', false, 'Pisos(pastel)'); */
     

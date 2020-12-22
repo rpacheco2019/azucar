@@ -150,11 +150,25 @@
 			
 		</table>
 
+<hr>
 
-<p><b>Imagen de inspiración: </b> <?php ?></p>
-<img src="uploads/<?php echo $resultados['imagen'];?>" alt="" width="300" height="300">
-<p class="d-inline">Texto a escribir en pastel: <?php echo $resultados['textoGeneral'];  ?></p>
-<p class="d-inline">// Tema: <?php echo $resultados['tema'];  ?></p>
+<div class="container">
+  <div class="row">
+    <div class="col-sm-4">
+		<p><b>Imagen de inspiración: </b> <?php ?></p>
+		<img src="uploads/<?php echo $resultados['imagen'];?>" alt="" width="300" height="300">
+    </div>
+    <div class="col-sm-8">
+		<p class=""> <b> Texto a escribir en pastel: </b> <?php echo $resultados['textoGeneral'];  ?></p>
+		<p class=""> <b> Tema:</b> <?php echo $resultados['tema'];  ?></p>
+		<p class=""> <b> Notas:</b> <?php echo $resultados['notaPastel'];  ?></p>
+    </div>
+    <div class="col-sm">
+     
+    </div>
+  </div>
+</div>
+
 <hr>
 
 
