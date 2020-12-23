@@ -159,8 +159,8 @@
 		<img src="uploads/<?php echo $resultados['imagen'];?>" alt="" width="300" height="300">
     </div>
     <div class="col-sm-8">
-		<p class=""> <b> Texto a escribir en pastel: </b> <?php echo $resultados['textoGeneral'];  ?></p>
-		<p class=""> <b> Tema:</b> <?php echo $resultados['tema'];  ?></p>
+		<p class="mt-5"> <b> Tema:</b> <?php echo $resultados['tema'];  ?></p>
+		<p class=""> <b> Texto: </b> <?php echo $resultados['textoGeneral'];  ?></p>
 		<p class=""> <b> Notas:</b> <?php echo $resultados['notaPastel'];  ?></p>
     </div>
     <div class="col-sm">
